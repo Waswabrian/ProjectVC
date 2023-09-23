@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ÜTF-8">
+        <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+        <title>videp call demo</title>
+    </head>
+
+    <body>
+        <h1 class="h1">
+         Video call Demo:<br><small style = "font-size:14pt">Powered by Guyva.io</small>
+        </h1>
+
+        <p>App id:<input type="text" id="app-id" value=""></p>
+        <p>Channel:<input type="text" id="app-id" value=""></p>
+        <p>Token:<input type="text" id="app-id" value=""></p>
+        <button class="btn-outline-success" id="start">Start</button>
+        <button class="btn-danger" id="stop" disabled>Stop</button>
+
+        <h4 class="h4">My Feed</h4>
+        <div id="me"></div>
+
+        <h4 class="h4">Remote Feeds</h4>
+        <div id="remote-container">
+
+
+        </div>
+        <script src="https://download.agora.io/sdk/release/AgoraRTC_N-4.3.0.js"></script>
+    <script src="scripts/script.js"></script>
+    </body>
+</html>
